@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  30 JUN 2019 16:21
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  10 NOV 2019 15:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1239,62 +1239,63 @@ File: english.lbx 2018/03/04 v3.11 biblatex localization (PK/MW)
 (./cv.aux)
 \openout1 = `cv.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 5.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 5.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 5.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 24.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 5.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 24.
 \g__fontspec_family_latinmodern-math.otf_int=\count412
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/texgyreheros-regular.otf(4)/m/n --> TU/latinmodern-m
-ath.otf(1)/m/n on input line 5.
+ath.otf(1)/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/texgyreheros-regular.otf(4)/bx/n --> TU/latinmodern-
-math.otf(1)/bx/n on input line 5.
+math.otf(1)/bx/n on input line 24.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 5.
+(Font)              `symbols' in the math version `normal' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 5.
+t line 24.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 5.
+(Font)              `symbols' in the math version `bold' on input line 24.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> TU/latinmodern-math.otf(2)/bx/n on inp
-ut line 5.
+ut line 24.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 5
-.
+(Font)              `largesymbols' in the math version `normal' on input line 2
+4.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 5.
+t line 24.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 5.
+(Font)              `largesymbols' in the math version `bold' on input line 24.
+
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/bx/n on inp
-ut line 5.
+ut line 24.
  ABD: EveryShipout initializing macros
 Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
@@ -1303,14 +1304,91 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `cv.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'cv.bbl' not found.
+Package biblatex Info: ... file 'cv.bbl' found.
+ (./cv.bbl)
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
 
-No file cv.bbl.
-Package biblatex Info: Reference section=0 on input line 5.
-Package biblatex Info: Reference segment=0 on input line 5.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(173.56198pt, 398.0539pt, 42.67912pt)
+* v-part:(T,H,B)=(56.9055pt, 695.38536pt, 42.67912pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=398.0539pt
+* \textheight=695.38536pt
+* \oddsidemargin=101.29199pt
+* \evensidemargin=101.29199pt
+* \topmargin=-15.36449pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=0.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box55
+Package hyperref Info: Link coloring OFF on input line 24.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count413
+)
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
+
+(./cv.out) (./cv.out)
+\@outlinefile=\write6
+\openout6 = `cv.out'.
+
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 10.00015pt on input line 53.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.01247pt on input line 53.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 4.9808pt on input line 53.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.99985pt on input line 53.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.01224pt on input line 53.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.98067pt on input line 53.
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--102
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--136
+
+ []
+
+*geometry* verbose mode - [ newgeometry ] result:
 * driver: xetex
 * paper: <default>
 * layout: <same size as paper>
@@ -1342,51 +1420,6 @@ Package biblatex Info: Reference segment=0 on input line 5.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box55
-Package hyperref Info: Link coloring OFF on input line 5.
-(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count413
-)
-LaTeX Info: Redefining \ref on input line 5.
-LaTeX Info: Redefining \pageref on input line 5.
-LaTeX Info: Redefining \nameref on input line 5.
-
-(./cv.out) (./cv.out)
-\@outlinefile=\write6
-\openout6 = `cv.out'.
-
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 34.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.01247pt on input line 34.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.9808pt on input line 34.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 34.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.01224pt on input line 34.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.98067pt on input line 34.
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--115
-
- []
-
 (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
@@ -1394,62 +1427,47 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 125--125
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--140
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 145--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
+Underfull \hbox (badness 10000) in paragraph at lines 151--151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 161--161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--165
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--167
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 139--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--185
+Underfull \hbox (badness 10000) in paragraph at lines 176--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 
  []
 
@@ -1459,52 +1477,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 191--191
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
+Underfull \hbox (badness 10000) in paragraph at lines 196--196
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--203
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--212
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 224--224
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 216--216
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--218
+
+ []
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(88.2037pt, 523.24585pt, 2.84544pt)
+* v-part:(T,H,B)=(42.67912pt, 749.44542pt, 2.84544pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=523.24585pt
+* \textheight=749.44542pt
+* \oddsidemargin=15.93372pt
+* \evensidemargin=15.93372pt
+* \topmargin=-29.59087pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=0.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[2
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 230--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--240
+Underfull \hbox (badness 2050) in paragraph at lines 243--243
+[][]\TU/texgyreheros-bold.otf(0)/m/n/10 Higgs Couplings Workshop, Oxford, UK \T
+U/texgyreheros-regular.otf(1)/m/n/10 (Oral Presentation) (2019,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--245
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 218--247
+Underfull \hbox (badness 10000) in paragraph at lines 250--250
 
  []
 
@@ -1524,24 +1582,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 268--268
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--271
+Underfull \hbox (badness 10000) in paragraph at lines 274--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--285
+Underfull \hbox (badness 10000) in paragraph at lines 280--280
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
+Underfull \hbox (badness 10000) in paragraph at lines 223--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--302
+Package hyperref Warning: Suppressing empty link on input line 299.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
 
  []
+
+
+Package hyperref Warning: Suppressing empty link on input line 305.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+
+ []
+
+
+Package hyperref Warning: Suppressing empty link on input line 311.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 311--311
@@ -1549,16 +1621,139 @@ Underfull \hbox (badness 10000) in paragraph at lines 311--311
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--317
+Underfull \hbox (badness 10000) in paragraph at lines 292--313
 
  []
 
-[4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 318.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 318.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(88.2037pt, 523.24585pt, 2.84544pt)
+* v-part:(T,H,B)=(42.67912pt, 749.44542pt, 2.84544pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=523.24585pt
+* \textheight=749.44542pt
+* \oddsidemargin=15.93372pt
+* \evensidemargin=15.93372pt
+* \topmargin=-29.59087pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=0.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[3
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--338
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--362
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--416
+
+ []
+
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(88.2037pt, 523.24585pt, 2.84544pt)
+* v-part:(T,H,B)=(42.67912pt, 749.44542pt, 2.84544pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=523.24585pt
+* \textheight=749.44542pt
+* \oddsidemargin=15.93372pt
+* \evensidemargin=15.93372pt
+* \topmargin=-29.59087pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=10.0pt
+* \footskip=0.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+[4
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 318.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 318.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 417.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
 Package logreq Info: Writing requests to 'cv.run.xml'.
@@ -1566,10 +1761,10 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38986 strings out of 492970
- 760155 string characters out of 6133938
- 1275529 words of memory out of 5000000
- 42577 multiletter control sequences out of 15000+600000
+ 38991 strings out of 492970
+ 760209 string characters out of 6133938
+ 1276777 words of memory out of 5000000
+ 42580 multiletter control sequences out of 15000+600000
  532205 words of font info for 61 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  73i,10n,76p,10464b,742s stack positions out of 5000i,500n,10000p,200000b,80000s

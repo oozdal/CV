@@ -132,6 +132,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
         bananayellow\or%
         awesome\or%
         bittersweet\or%
+        aqua\or%
         purple\else%
         headercolor\fi%
     } #1#2#3%
@@ -229,7 +230,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     \printfield{year}%
     \newunit%
   }
-  \par\vspace{0.3\baselineskip}
+  \par\vspace{0.1\baselineskip}
 }
 
 \DeclareBibliographyDriver{inproceedings}{%
@@ -247,7 +248,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     \printlist{location}%
     \newunit%
   }
-  \par\vspace{0.3\baselineskip}
+  \par\vspace{0.1\baselineskip}
 }
 
 \DeclareBibliographyDriver{misc}{%
@@ -267,7 +268,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     \printlist{location}%
     \newunit%
   }
-  \par\vspace{0.3\baselineskip}
+  \par\vspace{0.1\baselineskip}
 }
 
 \DeclareBibliographyDriver{report}{%
@@ -285,7 +286,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     \printfield{year}%
     \newunit%
   }
-  \par\vspace{0.3\baselineskip}
+  \par\vspace{0.1\baselineskip}
 }
 
 \DeclareNameFormat{author}{%
@@ -314,5 +315,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+
+
+\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=1.5cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}

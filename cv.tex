@@ -2,6 +2,25 @@
 \documentclass[]{friggeri-cv}
 \addbibresource{bibliography.bib}
 
+\usepackage{geometry}
+
+\makeatletter
+\let\@@outputpage\@outputpage
+\def\@outputpage{\expandafter\@thisgeometry\@@outputpage}
+\def\oddgeometryeven#1#2{%
+	\gdef\@thisgeometry{%
+		\ifnum\value{page}=1
+		\newgeometry{left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot}%
+		\else
+		\newgeometry{left=3.1cm,top=1.5cm,right=0.1cm,bottom=0.1cm,nohead,nofoot}%
+		\fi}
+}
+\makeatother
+
+\oddgeometryeven{left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot}{left=3.1cm,top=1cm,right=0.1cm,bottom=0.1cm,nohead,nofoot}
+
+
+
 \begin{document}
 \header{Özer }{Özdal}
        {Ph.D. Candidate}
@@ -29,7 +48,7 @@
   \section{Languages}
     Native Turkish
     Advanced English 
-    Beginner French
+    Intermediate French
   \section{Programming}
     $\textsc{Fortran}$, $\textsc{Python}$, 
     $\textsc{Matlab}$, $\textsc{C++}$,
@@ -48,13 +67,18 @@ Grand Unified Theories \\
 Electroweak Symmetry Breaking \\
 
 \section{Education}
-
 \begin{entrylist}
+	   \entry
+	{2019-2020}
+	{Visiting Ph.D. Student}
+	{NExT Institute \& University of Southampton}
+	{\emph{Compressed Supersymmetric Spectra at the Large Hadron Collider (LHC)} \\
+		Host Supervisor: Prof. Stefano Moretti}
   \entry
     {since 2016}
     {Ph.D. candidate in Physics}
     {Concordia University}
-    {\emph{Dark matter phenomenology in supersymmetric extentions of Standard Model}}
+    {\emph{Beyond Standard Model scenarios at LHC: dark matter, W' \& Z' mass limits}}
    \entry
    {2016--2017}
    {Inter-University Transfer Student}
@@ -88,11 +112,8 @@ Electroweak Symmetry Breaking \\
     PHYS 367: Modern Physics and Relativity (Tutor, 2019 Winter) \\		
     PHYS 245: Classical Mechanics (Tutor, 2018 Fall) \\
 	PHYS 224: Introductory Experimental Mechanics (Lab Assistant) \\    		
-    PHYS 252: Optics (2018 Winter) \\ 
-	PHYS 236: Numerical Analysis in Physics (2017 Fall) \\
-	PHYS 224: Introductory Experimental Mechanics (Lab Assistant) \\
-	PHYS 252: Optics (2017 Winter) \\
-	PHYS 236: Numerical Analysis in Physics (2016 Fall)
+    PHYS 252: Optics (2017 Winter, 2018 Winter) \\ 
+	PHYS 236: Numerical Analysis in Physics (2016 Fall, 2017 Fall) \\
 	}}
   \entry
     {Since 2016}
@@ -112,106 +133,6 @@ Electroweak Symmetry Breaking \\
   	{\emph{Vibration modeling in nanowire resonators with mechanical coupling \\
   	 Under the supervision of Assoc. Prof. Erdem Alaca}}  
 \end{entrylist}
-
-
-\section{Activities}
-
-\begin{entrylist}
-		 	
-	\entry
-	{2015}
-	{Introduction to Supersymmetry  Summer School \\ \normalfont (2015, September 7-11)}
-	{\href{http://fezagursey.boun.edu.tr/?sayfa=29}{Boğaziçi University}}
-	
-	\entry
-	{2015}
-	{METU HEP Days  \normalfont (2015, February 12-14)}
-	{\href{http://yef.ankara.edu.tr/yefgunleri2015/index.html}{METU}}
-		
-	\entry
-	{2014}
-	{Cosmology and Astroparticle Physics Summer School \\ \normalfont (2014, September 1-12)}
-	{\href{http://fezagursey.boun.edu.tr/?sayfa=33}{Boğaziçi University}}
-		
-	\entry
-	{2014}
-	{Differential Geometry and Topological Methods in Physics Summer School  \normalfont (2014, August 25-29)}
-	{\href{http://fezagursey.boun.edu.tr/?sayfa=32}{Boğaziçi University}}
-		
-	\entry
-	{2014}
-	{Computational Techniques for Physicists and Astronomers Summer School  \normalfont (2014, August 13-22)}
-	{\href{http://fezagursey.boun.edu.tr/?sayfa=31}{Boğaziçi University}}
-	
-	\entry
-	{2014}
-	{Winter School on Computer Applications in Accelerator and Particle Physics \normalfont (2014, February 3-10)}
-	{\href{http://hpfbu.web.cern.ch/hpfbu/HPFBU2014/HPFBU2014.html}{Gaziosmanpaşa University}}
-		
-	\entry
-	{2013}
-	{Physics for Astronomers \normalfont (2013, September 2-6)}
-	{\href{http://fezagursey.boun.edu.tr/?sayfa=36}{Boğaziçi University}}
-	
-  	\entry
-  	{2013}
-    {Cosmology Summer School \normalfont (2013, August 19-30)}
-    {\href{http://fezagursey.boun.edu.tr/?sayfa=35}{Boğaziçi University}}
-    
-    \entry
-    {2010}
-    {Istanbul University 27th International Physics  Congress \\ \normalfont (2010, September 14-17)}
-    {\href{http://www.tfd.com.tr/arsiv/TFD/27/Wc9f53756aa549.htm}{Istanbul University}}
-
-\end{entrylist}
-
-\newpage
-
-\section{Presentations}
-
-\begin{entrylist}
-
-	\entry
-	{2019}
-	{2019 XIth International Symposium: Quantum Theory and Symmetries (QTS)  \normalfont (Oral Presentation) (2019, 1-5 July) \\
-	Title: Relaxing LHC constraints on the W$_R$ mass}
-	{\href{http://www.crm.umontreal.ca/2019/QTS2019/pdf/ozdal.pdf}{QTS 2019}} 
-		
-	\entry
-	{2018}
-	{2018 Phenomenology Symposium  \normalfont (Oral Presentation) \\ (2018, 7-9 May) \\
-		Title: Naturalness and dark matter in supersymmetric U(1)$_{B-L} \times$ U(1)$_R$ \\ model}
-	{\href{https://indico.cern.ch/event/699148/}{Pheno 2018}} 
-	
-	\entry
-	{2018}
-	{Winter Nuclear and Particle Physics Conference  \normalfont (Oral Presentation) \\ (2018, 15-18 February) \\
-	Title: Exploring the supersymmetric U(1)$_{B-L} \times$ U(1)$_R$ model}
-	{\href{http://wnppc.triumf.ca/2018/}{WNPPC 2018}}
-	
-	\entry
-	{2015}
-	{First Joint METU-IPM Conference on LHC Physics  \normalfont (Poster presentation) \\ (2015, September 29--October 3) \\
-	Title: Higgs Anomalies in SUSY B-L Model}
-	{\href{http://ictp-ecar.org/events/first-joint-metu-ipm-conference-on-lhc-physics/}{ICTP-ECAR}}
-	
-	\entry
-	{2014}
-	{Turkish Physical Society 31th International Physics Congress \\ \normalfont (Poster presentation - 2014, July 21-24) \\
-	Title: Revisiting N-symmetric barrier tunneling in Quantum Mechanics}
-	{\href{http://www.tfd.com.tr/arsiv/TFD/31/en/default.htm}{TFD-31}}
-
-	\entry
-	{2014}
-	{Izmir Solid State Physics Meeting  \normalfont (Poster presentation) \\ (2014, April 11) \\
-		Title: Revisiting N-symmetric barrier tunneling in Quantum Mechanics}
-	{\href{http://ymf.iyte.edu.tr/?page_id=234}{IZTECH}}
-	
-
-\end{entrylist}
-
-
-\newpage
 
 \section{Publications}
 
@@ -245,14 +166,169 @@ Electroweak Symmetry Breaking \\
 	
 \end{entrylist}
 
+\section{Activities}
+
+\begin{entrylist}		 	
+	\entry
+	{2015}
+	{Introduction to Supersymmetry  Summer School \\ \normalfont (2015, September 7-11)}
+	{\href{http://fezagursey.boun.edu.tr/?sayfa=29}{Boğaziçi University}}
+	
+	\entry
+	{2015}
+	{METU HEP Days  \normalfont (2015, February 12-14)}
+	{\href{http://yef.ankara.edu.tr/yefgunleri2015/index.html}{METU}}
+	
+	\entry
+	{2014}
+	{Cosmology and Astroparticle Physics Summer School \\ \normalfont (2014, September 1-12)}
+	{\href{http://fezagursey.boun.edu.tr/?sayfa=33}{Boğaziçi University}}
+	
+	\entry
+	{2014}
+	{Differential Geometry and Topological Methods in Physics Summer School  \normalfont (2014, August 25-29)}
+	{\href{http://fezagursey.boun.edu.tr/?sayfa=32}{Boğaziçi University}}
+	
+	\entry
+	{2014}
+	{Computational Techniques for Physicists and Astronomers Summer School  \normalfont (2014, August 13-22)}
+	{\href{http://fezagursey.boun.edu.tr/?sayfa=31}{Boğaziçi University}}
+	
+	\entry
+	{2014}
+	{Winter School on Computer Applications in Accelerator and Particle Physics \normalfont (2014, February 3-10)}
+	{\href{http://hpfbu.web.cern.ch/hpfbu/HPFBU2014/HPFBU2014.html}{Gaziosmanpaşa University}}
+	
+	\entry
+	{2013}
+	{Physics for Astronomers \normalfont (2013, September 2-6)}
+	{\href{http://fezagursey.boun.edu.tr/?sayfa=36}{Boğaziçi University}}
+	
+	\entry
+	{2013}
+	{Cosmology Summer School \normalfont (2013, August 19-30)}
+	{\href{http://fezagursey.boun.edu.tr/?sayfa=35}{Boğaziçi University}}
+	
+	\entry
+	{2010}
+	{Istanbul University 27th International Physics  Congress \\ \normalfont (2010, September 14-17)}
+	{\href{http://www.tfd.com.tr/arsiv/TFD/27/Wc9f53756aa549.htm}{Istanbul University}}
+	
+\end{entrylist}
+
+\newpage
+
+\section{Presentations}
+
+\begin{entrylist}
+	
+	\entry
+	{2019}
+	{University of Southampton \normalfont (Oral Presentation) (2019, November 26) \\
+		Title: Relaxing LHC constraints on the $W^\prime$ mass, and natural Dark Matter }
+	{\href{https://www.hep.phys.soton.ac.uk/content/Tuesday-2019-11-26-Ozer-Ozdal}{University of Southampton}} 	
+	
+	\entry
+	{2019}
+	{NExT Meeting at Sussex \normalfont (Oral Presentation) (2019, November 20) \\
+	Title: Relaxing LHC constraints on the $W^\prime$ mass, and natural Dark Matter }
+	{\href{https://indico.cern.ch/event/857401/overview}{University of Sussex}} 		
+	
+	
+	\entry
+	{2019}
+	{Higgs Couplings Workshop, Oxford, UK \normalfont (Oral Presentation) (2019, September 30 - October 4) \\
+		Title: Mass spectrum and Higgs profile in B-L symmetric SSM}
+	{\href{https://indico.cern.ch/event/796574/contributions/3521711/}{Higgs Couplings 2019}} 	
+	
+	
+	\entry
+	{2019}
+	{2019 XIth International Symposium: Quantum Theory and Symmetries (QTS)  \normalfont (Oral Presentation) (2019, 1-5 July) \\
+		Title: Relaxing LHC constraints on the W$_R$ mass}
+	{\href{http://www.crm.umontreal.ca/2019/QTS2019/pdf/ozdal.pdf}{QTS 2019}} 
+	
+	\entry
+	{2018}
+	{2018 Phenomenology Symposium, Pittsburgh, USA  \normalfont (Oral Presentation) \\ (2018, 7-9 May) \\
+		Title: Naturalness and dark matter in supersymmetric U(1)$_{B-L} \times$ U(1)$_R$ \\ model}
+	{\href{https://indico.cern.ch/event/699148/}{Pheno 2018}} 
+	
+	\entry
+	{2018}
+	{Winter Nuclear and Particle Physics Conference  \normalfont (Oral Presentation) \\ (2018, 15-18 February) \\
+		Title: Exploring the supersymmetric U(1)$_{B-L} \times$ U(1)$_R$ model}
+	{\href{http://wnppc.triumf.ca/2018/}{WNPPC 2018}}
+	
+	\entry
+	{2015}
+	{First Joint METU-IPM Conference on LHC Physics  \normalfont (Poster presentation) \\ (2015, September 29--October 3) \\
+		Title: Higgs Anomalies in SUSY B-L Model}
+	{\href{http://ictp-ecar.org/events/first-joint-metu-ipm-conference-on-lhc-physics/}{ICTP-ECAR}}
+	
+	\entry
+	{2014}
+	{Turkish Physical Society 31th International Physics Congress \\ \normalfont (Poster presentation - 2014, July 21-24) \\
+		Title: Revisiting N-symmetric barrier tunneling in Quantum Mechanics}
+	{\href{http://www.tfd.com.tr/arsiv/TFD/31/en/default.htm}{TFD-31}}
+	
+	\entry
+	{2014}
+	{Izmir Solid State Physics Meeting  \normalfont (Poster presentation) \\ (2014, April 11) \\
+		Title: Revisiting N-symmetric barrier tunneling in Quantum Mechanics}
+	{\href{http://ymf.iyte.edu.tr/?page_id=234}{IZTECH}}
+	
+	
+\end{entrylist}
+
+
+
+
+
+
+
+\section{On-going Studies}
+
+\begin{entrylist}
+	
+		\entry
+{1)}
+{Natural Dark Matter and light bosons in an alternative left-right \\ symmetric model \\ \normalfont
+	Collaboration with Prof. Poulose Poulose, Prof. Benjamin Fuks and Prof. Mariana Frank}
+{\href{https://www.mitacs.ca/en/programs/globalink/globalink-research-award}{}} 
+
+		\entry
+{2)}
+{Compressed supersymmetric spectra at Large Hadron Collider \\ \normalfont
+	Collaboration with Prof. Stefano Moretti and Prof. Mariana Frank}
+{\href{https://www.mitacs.ca/en/programs/globalink/globalink-research-award}{}} 
+	
+		\entry
+{3)}
+{Correlating $W^\prime$ and $Z^\prime$ gauge boson mass limits in general \\ extensions of the Standard Model \\ \normalfont
+	Collaboration with Prof. Benjamin Fuks, Prof. Stefano Moretti, Prof. Poulose Poulose and Prof. Mariana Frank}
+{\href{https://www.mitacs.ca/en/programs/globalink/globalink-research-award}{}} 
+	
+\end{entrylist}	
+
+
+
+\newpage
+
 \section{Awards}
 
 \begin{entrylist}
 	
 \entry
 {2019}
-{Graduate Student Mobility Award}
-{\href{https://www.concordia.ca/students/exchanges/funding/graduate-mobility-award.html}{Concordia University}} 	
+{Mitacs Globalink Research Award}
+{\href{https://www.mitacs.ca/en/programs/globalink/globalink-research-award}{Mitacs}} 	
+	
+	
+%\entry
+%{2019}
+%{Graduate Student Mobility Award}
+%{\href{https://www.concordia.ca/students/exchanges/funding/graduate-mobility-award.html}{Concordia University}} 	
 
 
 \entry
@@ -270,48 +346,71 @@ Electroweak Symmetry Breaking \\
 \end{entrylist}	
 	
 
-
 \section{References}
 	
 	\begin{entrylist}
 		
 		\entry
 		{1)}
-		{Mariana Frank \\ \normalfont
-			Professor in Physics \\
-			Department of Physics \\
-			Concordia University}
+		{Prof. Mariana Frank \\ \normalfont
+		Professor in Physics \\
+		Office: 	L-SP 367-19 \\
+		Richard J. Renaud Science Complex, 7141 Sherbrooke W. 	\\
+		Office Phone: 	(514) 848-2424 ext. 3283 \\
+		Concordia University}
 		{\href{mariana.frank@concordia.ca}{mariana.frank@concordia.ca}} 
 		
-	    \entry
-		{2)}
-		{Cem Salih Ün  \\ \normalfont
-		Associate professor in Physics \\
-		Department of Physics \\
-		Uludağ University}
-		{\href{cemsalihun@uludag.edu.tr}{cemsalihun@uludag.edu.tr}} 
-	
 
+			
 		\entry
+		{2)}
+		{Prof. Benjamin Fuks \\ \normalfont
+		Professor in Physics \\	
+		Laboratoire de Physique Théorique et Hautes Énergies (LPTHE) \\	
+		Office : 	13-14.521 \\
+		Office Phone: 	01 44 27 63 38	\\
+		Sorbonne Université}
+		{\href{fuks@lpthe.jussieu.fr}{fuks@lpthe.jussieu.fr}} 		
+	
+	    \entry
 		{3)}
-		{Poulose Poulose \\ \normalfont
-		Professor in Physics \\
-		Department of Physics \\
-		Indian Institute of Technology Guwahati}
-		{\href{poulose@iitg.ac.in}{poulose@iitg.ac.in}} 
-
+		{Prof. Stefano Moretti  \\ \normalfont
+		Professor in Physics \\	
+		School of Physics and Astronomy \\
+		University of Southampton \\
+		Highfield, Southampton SO17 1BJ, UK	\\
+		Office Phone: 	+44 (0)23 8059 6829 \\
+		University of Southampton}
+		{\href{S.Moretti@soton.ac.uk}{S.Moretti@soton.ac.uk}} 			
 	
 		\entry
 		{4)}
-		{Durmuş Ali Demir \\ \normalfont
-		Professor in Physics \\
+		{Prof. Poulose Poulose \\ \normalfont
+		Associate Professor in Physics \\		
 		Department of Physics \\
-		Izmir Institute of Technology}
-		{\href{durmus.demir@gmail.com}{durmus.demir@gmail.com}} 
-		
-		
+		IIT Guwahati, Assam 781039 \\
+		Office Phone: +91 (0)361 2582713 \\			
+		Indian Institute of Technology Guwahati}
+		{\href{poulose@iitg.ac.in}{poulose@iitg.ac.in}} 					
 
-		
+	
+	    \entry
+		{5)}
+		{Assoc. Prof. Cem Salih Ün  \\ \normalfont
+		Associate Professor in Physics \\		
+		Department of Physics \\			
+		Uludağ University}
+		{\href{cemsalihun@uludag.edu.tr}{cemsalihun@uludag.edu.tr}} 		
+
+	    \entry
+		{6)}
+		{Prof. Durmuş Ali Demir  \\ \normalfont
+		Professor in Physics \\		
+		Department of Physics \\
+	    Office Phone: +90 216 568 7042 \\						
+		Sabancı University}
+		{\href{durmus.demir@sabanciuniv.edu}{durmus.demir@sabanciuniv.edu}} 		
+
 
 	\end{entrylist}
 
