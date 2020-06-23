@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  5 DEC 2019 12:39
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  2 JUN 2020 12:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1432,12 +1432,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--145
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
  []
 
@@ -1447,67 +1447,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--162
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
+Underfull \hbox (badness 10000) in paragraph at lines 168--168
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--174
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--182
+Underfull \hbox (badness 10000) in paragraph at lines 183--183
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--187
+Underfull \hbox (badness 10000) in paragraph at lines 139--185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 197--197
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--202
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 207--207
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 213--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
+Underfull \hbox (badness 10000) in paragraph at lines 223--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--224
+Underfull \hbox (badness 10000) in paragraph at lines 228--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--235
 
  []
 
@@ -1546,79 +1556,71 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--224
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
+Underfull \hbox (badness 10000) in paragraph at lines 246--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--242
+Underfull \hbox (badness 10000) in paragraph at lines 252--252
 
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 249--249
+Underfull \hbox (badness 2050) in paragraph at lines 259--259
 [][]\TU/texgyreheros-bold.otf(0)/m/n/10 Higgs Couplings Workshop, Oxford, UK \T
 U/texgyreheros-regular.otf(1)/m/n/10 (Oral Presentation) (2019,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 249--249
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 256--256
+Underfull \hbox (badness 10000) in paragraph at lines 266--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--262
+Underfull \hbox (badness 10000) in paragraph at lines 272--272
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--268
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--274
+Underfull \hbox (badness 10000) in paragraph at lines 284--284
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--280
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--286
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--289
+Underfull \hbox (badness 10000) in paragraph at lines 239--299
 
  []
 
 
-Package hyperref Warning: Suppressing empty link on input line 305.
+Package hyperref Warning: Suppressing empty link on input line 315.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--305
-
- []
-
-
-Package hyperref Warning: Suppressing empty link on input line 311.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 311--311
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 298--313
+Underfull \hbox (badness 10000) in paragraph at lines 308--317
 
  []
 
@@ -1657,57 +1659,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--313
 [3
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 326--326
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--338
+Underfull \hbox (badness 10000) in paragraph at lines 342--342
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--344
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 320--347
+Underfull \hbox (badness 10000) in paragraph at lines 324--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--362
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--374
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--385
+Underfull \hbox (badness 10000) in paragraph at lines 389--389
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--395
+Underfull \hbox (badness 10000) in paragraph at lines 399--399
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
+Underfull \hbox (badness 10000) in paragraph at lines 408--408
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--413
+Underfull \hbox (badness 10000) in paragraph at lines 417--417
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 351--416
+Underfull \hbox (badness 10000) in paragraph at lines 355--420
 
  []
 
@@ -1746,11 +1748,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 351--416
 [4
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 421.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 421.
  (./cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 417.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 421.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 421.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
 Package logreq Info: Writing requests to 'cv.run.xml'.
