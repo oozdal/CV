@@ -1,0 +1,164 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+
+
+\usepackage{lipsum}
+\usepackage{enumitem}
+
+\addbibresource{bibliography.bib}
+
+\usepackage{geometry}
+
+\makeatletter
+\let\@@outputpage\@outputpage
+\def\@outputpage{\expandafter\@thisgeometry\@@outputpage}
+\def\oddgeometryeven#1#2{%
+	\gdef\@thisgeometry{%
+		\ifnum\value{page}=1
+		\newgeometry{left=6.1cm,top=1.2cm,right=1.5cm,bottom=0.1cm,nohead,nofoot}%
+		\else
+		\newgeometry{left=3.1cm,top=1.5cm,right=1.5cm,bottom=0.1cm,nohead,nofoot}%
+		\fi}
+}
+\makeatother
+
+\oddgeometryeven{left=6.1cm,top=1cm,right=1.5cm,bottom=0.1cm,nohead,nofoot}{left=3.1cm,top=1cm,right=0.1cm,bottom=0.1cm,nohead,nofoot}
+
+
+
+\begin{document}
+\header {Özer Özdal}
+    %   {Ph.D.}
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{Contact Information}
+    Tel: +1 438 935 74 64
+    \href{mailto:ozerozdal@gmail.com}{ozerozdal@gmail.com}
+    \href{http://www.linkedin.com/in/ozerozdal/}{linkedin://ozerozdal}
+  %  \href{http://facebook.com/ozerozdal}{fb://ozerozdal}
+    \href{http://github.com/oozdal}{github://oozdal}
+  \section{Personal Information}
+  	\bullet Date of birth 
+  	28/05/1990
+  	\bullet Place of birth
+  	Izmir, Turkey
+  \section{Languages}
+    Native Turkish
+    Advanced English 
+    French (A2 Level)
+  \section{Software Skills}
+    Monte Carlo Sampling
+    Statistical Modeling
+    Linear regression
+	Clustering     
+    Quantitative Analysis    
+    Data Visualization
+  \section{Coursework}  
+  \bullet Machine Learning
+  \bullet Deep Learning Specialization
+  \bullet SQL for Data Science
+  \bullet Linear Algebra
+  \bullet Multivariate Calculus
+  \bullet Probability Theory
+  \bullet Computational Physics    
+  \bullet Classical Mechanics
+  \bullet Quantum Mechanics
+  \bullet Statistical Mechanics
+    \section{Tools}
+    $\textsc{Python}$, $\textsc{C++}$ 
+    $\textsc{SQL}$, $\textsc{Fortran}$
+    $\textsc{CERN ROOT}$, LaTeX   
+    Bash shell scripting
+    $\textsc{Mathematica}$,  $\textsc{Matlab}$
+    \section{Packages}  
+    Scikit-Learn,
+    NumPy, SciPy,
+    Pandas, Matplotlib,
+    Pytorch, TensorFlow    
+\end{aside}
+
+\section{Data Science Experience}
+
+\begin{entrylist}
+	\entry
+	{since 2018}
+	{Machine Learning in High-Energy Physics}
+	{Concordia University}
+   {\emph{My goal is to compare two D dimensional samples: the SM simulated events (background to BSM searches), and the real data, and to check if the two are drawn from the same probability density distribution.}}
+
+\end{entrylist}
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {since 2016}
+    {Ph.D. in Theoretical High Energy Physics}
+    {Concordia University}
+    {\emph{Phenomenology of new physics beyond the Standard Model: signals of dark matter and new gauge bosons at colliders. Lead to five scientific publications.}}
+   \entry
+   {2016--2017}
+   {Inter-University Transfer Student}
+   {McGill University}
+   {\emph{Took two graduate courses: Quantum Field Theory I -  II}}
+   
+  \entry
+    {2014–2016}
+    {M.Sc. in Theoretical High Energy Physics}
+    {Izmir Institute of Technology}
+    {\emph{The Higgs boson and right-handed neutrinos in supersymmetric models. Lead to two scientific publications.}}
+  \entry
+    {2009–2014}
+    {B.Sc. in Physics (Ranked 3rd)}
+    {Izmir Institute of Technology}
+    {\emph{Revisited N-symmetric barrier tunneling in Quantum Mechanics}}
+    
+
+\end{entrylist}
+
+\section{Experience}
+
+\begin{entrylist}
+    \entry
+	{Since 2016}
+	{Research Assistant (RA)}
+	{Concordia University}
+	{\emph{Mariana Frank Research Group}}	
+	 \entry
+    {2019-2020}
+    {Visiting Ph.D. Student}
+    {NExT Institute \& University of Southampton}
+    {\emph {Supported by MITACS Globalink Research Award. Lead to two scientific \\ publications.}}
+    \entry
+    {2016-2020}
+    {Teaching Assistant (TA)}
+    {Concordia University}
+    {\emph{
+    		TAed for 8 physics courses. Graded assignments and wrote solutions, lead office hours and tutorial sessions.
+	}}
+    \entry
+    {2015--2016}
+    {Research Assistant (RA)}
+    {TUBITAK}
+    {\emph{Studied muon anomalous magnetic moment and yukawa quasi-unification \\ in supersymmetric Models. Lead to two scientific publications.}}  
+    \entry
+  	{2012--2012}
+  	{Internship}
+  	{Koç University, Mechanical Characterization Lab}
+  	{\emph{Created vibration modeling in nanowire resonators with mechanical coupling}}  
+\end{entrylist}
+
+
+\section{Relevant  Accomplishments}
+
+\begin{itemize}[topsep=0pt, partopsep=0pt]
+		\item 7 peer-reviewed scientific publications in High Energy Physics 
+		\item Gave 17 talks about my research at conferences
+	    \item Awarded Globalink Research Award by MITACS and Graduate Student Mobility Award by Concordia University
+		\item Attended 18 scientific workshops, summer/winter schools in top institutions	   
+		\item Awarded by Concordia International Tuition Award of Excellence
+	    \item B.Sc. in Physics 3rd Ranked Award		 
+\end{itemize}
+
+\end{document}

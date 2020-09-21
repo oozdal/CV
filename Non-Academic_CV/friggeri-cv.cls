@@ -100,7 +100,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
-    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=4cm] (box) at (current page.north){};
+    \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth, minimum height=3cm] (box) at (current page.north){};
     \node [anchor=center] (name) at (box) {%
       \fontsize{40pt}{72pt}\color{header}%
       {\thinfont #1}{\bodyfont  #2}
@@ -179,6 +179,33 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     #4\vspace{\parsep}%
   }\\}
 
+\newcommand{\entryp}[4]{%
+	#1&\parbox[t]{15.8cm}{\hspace*{1cm}
+		\textbf{#2}%
+		\hfill%
+		{\footnotesize\addfontfeature{Color=lightgray} #3}\\%
+		#4\vspace{\parsep}%
+	}\\}
+
+
+\newcommand{\entryLongTitle}[5]{%
+	#1&\parbox[t]{15.8cm}{\hspace*{1cm}
+		\textbf{#2} \\
+		\hspace*{1cm} \textbf{#3} 
+		\hfill%
+		{\footnotesize\addfontfeature{Color=lightgray} #4}\\%
+		#5\vspace{\parsep}%
+	}\\}
+
+\newcommand{\entrySuperLong}[5]{%
+	#1&\parbox[t]{15.8cm}{\hspace*{1cm}
+		\textbf{#2} \\
+		\hspace*{1cm}#3
+		\hfill%
+		{\footnotesize\addfontfeature{Color=lightgray} #4}\\%
+		#5\vspace{\parsep}%
+	}\\}
+
 
 %%%%%%%%%%%%%%
 % Side block %
@@ -192,7 +219,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{3.6}(1.5, 4.33)
+  \begin{textblock}{3.7}(1.5, 3.33)
   \begin{flushright}
   \obeycr
 }{%
@@ -317,5 +344,5 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 
 
 
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=1.5cm,nohead,nofoot]{geometry}
+\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=0.1cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}

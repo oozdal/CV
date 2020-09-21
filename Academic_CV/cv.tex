@@ -1,5 +1,9 @@
 %!TEX TS-program = xelatex
 \documentclass[]{friggeri-cv}
+
+
+\usepackage{lipsum}
+
 \addbibresource{bibliography.bib}
 
 \usepackage{geometry}
@@ -10,9 +14,9 @@
 \def\oddgeometryeven#1#2{%
 	\gdef\@thisgeometry{%
 		\ifnum\value{page}=1
-		\newgeometry{left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot}%
+		\newgeometry{left=6.1cm,top=1.2cm,right=1.5cm,bottom=0.1cm,nohead,nofoot}%
 		\else
-		\newgeometry{left=3.1cm,top=1.5cm,right=0.1cm,bottom=0.1cm,nohead,nofoot}%
+        \newgeometry{left=3.1cm,top=1.5cm,right=1.5cm,bottom=0.1cm,nohead,nofoot}%
 		\fi}
 }
 \makeatother
@@ -22,75 +26,87 @@
 
 
 \begin{document}
-\header{Özer }{Özdal}
-       {Ph.D. Candidate}
+\header {Özer Özdal}
+    %   {Ph.D.}
 
 
 % In the aside, each new line forces a line break
 \begin{aside}
-  \section{Contact Information}
-    Concordia University
-    Loyola Campus
-    Department of Physics SP 365.18
-    7141 Sherbrooke Street West
-    Montreal, QC  H4B 1R6
-    Canada
-    ~
-    Tel: +1 438 935 74 64
-    \href{mailto:ozerozdal@gmail.com}{ozerozdal@gmail.com}
-    \href{http://www.linkedin.com/in/ozerozdal/}{linkedin://ozerozdal}
-  %  \href{http://facebook.com/ozerozdal}{fb://ozerozdal}
-    \href{http://github.com/oozdal}{github://oozdal}
-  \section{Personal Information}
-  	Date of birth 28/05/1990
-  	Place of birth
-  	Izmir, Turkey
-  \section{Languages}
-    Native Turkish
-    Advanced English 
-    Beginner French
-  \section{Programming}
-    $\textsc{Fortran}$, $\textsc{Python}$, 
-    $\textsc{Matlab}$, $\textsc{C++}$,
-    Bash shell scripting,
-    $\textsc{Mathematica}$, LaTeX
+	\section{Contact Information}
+	Tel: +1 438 935 74 64
+	\href{mailto:ozerozdal@gmail.com}{ozerozdal@gmail.com}
+	\href{http://www.linkedin.com/in/ozerozdal/}{linkedin://ozerozdal}
+	%  \href{http://facebook.com/ozerozdal}{fb://ozerozdal}
+	\href{http://github.com/oozdal}{github://oozdal}
+	\section{Personal Information}
+	\bullet Date of birth 
+	28/05/1990
+	\bullet Place of birth
+	Izmir, Turkey
+	\section{Languages}
+	Native Turkish
+	Advanced English 
+	French (A2 Level)
+	\section{Software Skills}
+	Monte Carlo Sampling
+	Statistical Modeling
+	Linear regression
+	Clustering     
+	Quantitative Analysis    
+	Data Visualization
+	\section{Coursework}  
+	\bullet Machine Learning
+	\bullet Deep Learning Specialization
+	\bullet SQL for Data Science
+	\bullet Linear Algebra
+	\bullet Multivariate Calculus
+	\bullet Probability Theory
+	\bullet Computational Physics    
+	\bullet Classical Mechanics
+	\bullet Quantum Mechanics
+	\bullet Statistical Mechanics
+	\section{Tools}
+	$\textsc{Python}$, $\textsc{C++}$ 
+	$\textsc{SQL}$, $\textsc{Fortran}$
+	$\textsc{CERN ROOT}$, LaTeX   
+	Bash shell scripting
+	$\textsc{Mathematica}$,  $\textsc{Matlab}$
+	\section{Packages}  
+	Scikit-Learn,
+	NumPy, SciPy,
+	Pandas, Matplotlib,
+	Pytorch, TensorFlow    
 \end{aside}
+
+
 
 \section{Research interests}
 
-Particle Physics Phenomenology \\
-Beyond the Standard Model Phenomenology \\
-Supersymmetric Extensions of the Standard Model \\
-Dark Matter in Supersymmetric and Non-supersymmetric Models \\
-LHC Phenomenology \\
-Grand Unified Theories \\
-Electroweak Symmetry Breaking \\
+Particle Physics Phenomenology, Beyond the Standard Model Phenomenology, \\
+Supersymmetry, Dark Matter, LHC Phenomenology/Collider Physics, \\
+Computing Tools for High-Energy Physics, Future High-Energy Physics Experiments, \\
+Grand Unified Theories (GUT), Electroweak Symmetry Breaking \\
 
 \section{Education}
 \begin{entrylist}
-	   \entry
-	{2019-2020}
-	{Visiting Ph.D. Student}
-	{NExT Institute \& University of Southampton}
-	{\emph{Compressed Supersymmetric Spectra at the Large Hadron Collider (LHC)} \\
-		Host Supervisor: Prof. Stefano Moretti}
   \entry
     {since 2016}
-    {Ph.D. candidate in Physics}
+    {Ph.D. in Physics}
     {Concordia University}
-    {\emph{Beyond Standard Model scenarios at LHC: dark matter, W' \& Z' mass limits}}
+    {\emph{Phenomenology of new physics beyond the Standard Model: signals of dark matter and new gauge bosons at colliders. Lead to five scientific publications.}}
    \entry
    {2016--2017}
    {Inter-University Transfer Student}
    {McGill University}
-   {\emph{Physics 610 Quantum Field Theory I given by Prof. Simon Caron-Huot \\
+   {\emph{Took two graduate courses: \\
+      Physics 610 Quantum Field Theory I given by Prof. Simon Caron-Huot \\
       Physics 673 Quantum Field Theory II given by Prof. Alexander Maloney }}
    
   \entry
     {2014–2016}
     {M.Sc. in Physics}
     {Izmir Institute of Technology}
-    {\emph{The Higgs boson and right-handed neutrinos in supersymmetric models}}
+    {\emph{The Higgs boson and right-handed neutrinos in supersymmetric models. Lead to two scientific publications.}}
   \entry
     {2009–2014}
     {B.Sc. in Physics (Ranked 3rd)}
@@ -103,80 +119,83 @@ Electroweak Symmetry Breaking \\
 \section{Experience}
 
 \begin{entrylist}
-  \entry
-    {Since 2016}
-    {Concordia University}
+    \entry
+	{Since 2016}
+	{Research Assistant (RA)}
+	{Concordia University}
+	{\emph{Mariana Frank Research Group}}	
+	 \entry
+    {2019-2020}
+    {Visiting Ph.D. Student}
+    {NExT Institute \& University of Southampton}
+    {\emph {Supported by MITACS Globalink Research Award. Lead to two scientific \\ publications.}}
+    \entry
+    {2016-2020}
     {Teaching Assistant (TA)}
+    {Concordia University}
     {\emph{
-    PHYS 204: Mechanics (Tutor, 2019 Summer) \\    		
+    TAed for 8 physics courses. Graded assignments and wrote solutions, lead office hours and tutorial sessions: \\
+    PHYS 273: Energy and Environment (2020 Winter) \\		
+    PHYS 284: Introduction to Astronomy (2019 Fall) \\
+    PHYS 204: Mechanics (Tutor, 2019 Summer, 2020 Summer) \\    		
     PHYS 367: Modern Physics and Relativity (Tutor, 2019 Winter) \\		
     PHYS 245: Classical Mechanics (Tutor, 2018 Fall) \\
 	PHYS 224: Introductory Experimental Mechanics (Lab Assistant) \\    		
     PHYS 252: Optics (2017 Winter, 2018 Winter) \\ 
 	PHYS 236: Numerical Analysis in Physics (2016 Fall, 2017 Fall) \\
 	}}
-  \entry
-    {Since 2016}
-    {Concordia University}
-    {Research Fellow}
-    {\emph{Mariana Frank Research Group}}
-  \entry
+    \entry
     {2015--2016}
+    {Research Assistant (RA)}
     {TUBITAK Project No: 114F461}
-    {Research Fellow}
-    {\emph{Muon Anomalous Magnetic Moment and Yukawa Quasi-Unification in \\ Supersymmetric Models \\
-    		Under the supervision of Assoc. Prof. Cem Salih Ün}}  
-  \entry
+    {\emph{Studied muon anomalous magnetic moment and yukawa quasi-unification \\ in supersymmetric Models. Lead to two scientific publications.}}  
+    \entry
   	{2012--2012}
-  	{Koç University, Mechanical Characterization Lab}
   	{Internship}
-  	{\emph{Vibration modeling in nanowire resonators with mechanical coupling \\
-  	 Under the supervision of Assoc. Prof. Erdem Alaca}}  
+  	{Koç University, Mechanical Characterization Lab}
+  	{\emph{Created vibration modeling in nanowire resonators with mechanical coupling }}  
 \end{entrylist}
 
-\section{Publications}
+\newpage
 
+\section{Publications}
 \begin{entrylist}
-	
-	\entry
+	\entryp
 	{2020}
 	{Leptophobic $Z^\prime$ bosons in the secluded $U(1)^\prime$ model}
 	{\href{https://arxiv.org/abs/2005.08472}{arXiv:2005.08472}} 	
 	
-	\entry
+	\entryp
 	{2020}
 	{E6 motivated UMSSM confronts experimental data}
 	{\href{https://doi.org/10.1007/JHEP05(2020)123}{J. High Energ. Phys. 2020, 123 (2020)}} 	
 	
-	
-	\entry
+	\entryp
 	{2019}
-	{Natural Dark Matter and light bosons in an alternative left-right symmetric model}
+	{Natural Dark Matter and light bosons in an alternative left-right symmetric model \\}
 	{\href{https://doi.org/10.1007/JHEP04(2020)116}{J. High Energ. Phys. 2020, 116 (2020)}} 
 	
-	
-	\entry
+	\entryp
 	{2019}
 	{Relaxing LHC constraints on the W$_R$ mass}
 	{\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.99.035001}{Phys. Rev. D 99, 035001}} 
 	
-	
-	\entry
+	\entryLongTitle
 	{2018}
-	{Exploring the supersymmetric U(1)$_{B-L} \times$ U(1)$_R$ model with dark matter, muon g−2, and Z' mass limits}
+	{Exploring the supersymmetric U(1)$_{B-L} \times$ U(1)$_R$ model}{with dark matter, muon g−2, and $Z^\prime$ mass limits}
 	{\href{https://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.015012}{Phys. Rev. D 97, 015012}} 
 	
-	\entry
+	\entryLongTitle
 	{2017}
-	{Muon g−2 in an alternative quasi-Yukawa unification with a less fine-tuned seesaw mechanism}
+	{Muon g−2 in an alternative quasi-Yukawa unification}{with a less fine-tuned seesaw mechanism}
 	{\href{http://journals.aps.org/prd/abstract/10.1103/PhysRevD.97.055007}{Phys. Rev. D 97, 055007}} 
 	
-	\entry
+	\entryp
 	{2016}
-	{The Higgs boson and right-handed neutrinos in supersymmetric \\ models}
+	{The Higgs boson and right-handed neutrinos in supersymmetric models \\}
 	{\href{http://openaccess.iyte.edu.tr/xmlui/handle/11147/2842}{IZTECH Theses \& Dissertations}} 
 	
-	\entry
+	\entryp
 	{2016}
 	{Mass spectrum and Higgs profile in B−L symmetric SSM}
 	{\href{http://journals.aps.org/prd/abstract/10.1103/PhysRevD.93.055024}{Phys. Rev. D 93, 055024}} 
@@ -186,112 +205,110 @@ Electroweak Symmetry Breaking \\
 \section{Activities}
 
 \begin{entrylist}		 	
-	\entry
+	\entryp
 	{2015}
-	{Introduction to Supersymmetry  Summer School \\ \normalfont (2015, September 7-11)}
+	{Introduction to Supersymmetry  Summer School \normalfont (2015, September 7-11)}
 	{\href{http://fezagursey.boun.edu.tr/?sayfa=29}{Boğaziçi University}}
 	
-	\entry
+	\entryp
 	{2015}
 	{METU HEP Days  \normalfont (2015, February 12-14)}
 	{\href{http://yef.ankara.edu.tr/yefgunleri2015/index.html}{METU}}
 	
-	\entry
+	\entryp
 	{2014}
-	{Cosmology and Astroparticle Physics Summer School \\ \normalfont (2014, September 1-12)}
+	{Cosmology and Astroparticle Physics Summer School \normalfont (2014, September 1-12) \\}
 	{\href{http://fezagursey.boun.edu.tr/?sayfa=33}{Boğaziçi University}}
 	
-	\entry
+	\entryp
 	{2014}
-	{Differential Geometry and Topological Methods in Physics Summer School  \normalfont (2014, August 25-29)}
+	{Differential Geometry and Topological Methods in Physics Summer School \\}
 	{\href{http://fezagursey.boun.edu.tr/?sayfa=32}{Boğaziçi University}}
 	
-	\entry
+	\entryp
 	{2014}
-	{Computational Techniques for Physicists and Astronomers Summer School  \normalfont (2014, August 13-22)}
+	{Computational Techniques for Physicists and Astronomers Summer School \\}
 	{\href{http://fezagursey.boun.edu.tr/?sayfa=31}{Boğaziçi University}}
 	
-	\entry
+	\entryp
 	{2014}
-	{Winter School on Computer Applications in Accelerator and Particle Physics \normalfont (2014, February 3-10)}
+	{Winter School on Computer Applications in Accelerator and Particle Physics \\}
 	{\href{http://hpfbu.web.cern.ch/hpfbu/HPFBU2014/HPFBU2014.html}{Gaziosmanpaşa University}}
 	
-	\entry
+	\entryp
 	{2013}
 	{Physics for Astronomers \normalfont (2013, September 2-6)}
 	{\href{http://fezagursey.boun.edu.tr/?sayfa=36}{Boğaziçi University}}
 	
-	\entry
+	\entryp
 	{2013}
 	{Cosmology Summer School \normalfont (2013, August 19-30)}
 	{\href{http://fezagursey.boun.edu.tr/?sayfa=35}{Boğaziçi University}}
 	
-	\entry
+	\entryp
 	{2010}
-	{Istanbul University 27th International Physics  Congress \\ \normalfont (2010, September 14-17)}
+	{Istanbul University 27th International Physics  Congress}
 	{\href{http://www.tfd.com.tr/arsiv/TFD/27/Wc9f53756aa549.htm}{Istanbul University}}
 	
 \end{entrylist}
 
+\newpage
 
 \section{Presentations}
 
 \begin{entrylist}
 	
-	\entry
+	\entrySuperLong
 	{2019}
-	{University of Southampton \normalfont (Oral Presentation) (2019, November 26) \\
-		Title: Relaxing LHC constraints on the $W^\prime$ mass, and natural Dark Matter }
+	{University of Southampton \normalfont (Oral Presentation) (2019, November 26)}{Title: Relaxing LHC constraints on the $W^\prime$ mass, and natural Dark Matter} 
 	{\href{https://www.hep.phys.soton.ac.uk/content/Tuesday-2019-11-26-Ozer-Ozdal}{University of Southampton}} 	
 	
-	\entry
+	\entrySuperLong
 	{2019}
-	{NExT Meeting at Sussex \normalfont (Oral Presentation) (2019, November 20) \\
-	Title: $W^\prime$ models at the LHC}
+	{NExT Meeting at Sussex \normalfont (Oral Presentation) (2019, November 20)}
+	{Title: $W^\prime$ searches at the LHC}
 	{\href{https://indico.cern.ch/event/857401/overview}{University of Sussex}} 		
 	
-	
-	\entry
+	\entrySuperLong
 	{2019}
-	{Higgs Couplings Workshop, Oxford, UK \normalfont (Oral Presentation) (2019, September 30 - October 4) \\
-		Title: Mass spectrum and Higgs profile in B-L symmetric SSM}
+	{Higgs Couplings Workshop, Oxford, UK \normalfont (Oral Presentation) (September 30 - October 4)}
+	{Title: Mass spectrum and Higgs profile in B-L symmetric SSM}
 	{\href{https://indico.cern.ch/event/796574/contributions/3521711/}{Higgs Couplings 2019}} 	
-	
-	
-	\entry
+		
+	\entrySuperLong
 	{2019}
-	{2019 XIth International Symposium: Quantum Theory and Symmetries (QTS)  \normalfont (Oral Presentation) (2019, 1-5 July) \\
-		Title: Relaxing LHC constraints on the W$_R$ mass}
+	{XIth International Symposium: Quantum Theory and Symmetries (QTS)}
+	{Title: Relaxing LHC constraints on the W$_R$ mass}
 	{\href{http://www.crm.umontreal.ca/2019/QTS2019/pdf/ozdal.pdf}{QTS 2019}} 
 	
-	\entry
+	\entrySuperLong
 	{2018}
-	{2018 Phenomenology Symposium, Pittsburgh, USA  \normalfont (Oral Presentation) \\ (2018, 7-9 May) \\
-		Title: Naturalness and dark matter in supersymmetric U(1)$_{B-L} \times$ U(1)$_R$ \\ model}
+	{Phenomenology Symposium, Pittsburgh, USA  \normalfont (Oral Presentation) (2018, 7-9 May)}
+	{Title: Naturalness and dark matter in supersymmetric U(1)$_{B-L} \times$ U(1)$_R$ model}
 	{\href{https://indico.cern.ch/event/699148/}{Pheno 2018}} 
 	
-	\entry
+	\entrySuperLong
 	{2018}
-	{Winter Nuclear and Particle Physics Conference  \normalfont (Oral Presentation) \\ (2018, 15-18 February) \\
-		Title: Exploring the supersymmetric U(1)$_{B-L} \times$ U(1)$_R$ model}
+	{Winter Nuclear and Particle Physics Conference  \normalfont (Oral Presentation) (2018, 15-18 February)}
+	{Title: Exploring the supersymmetric U(1)$_{B-L} \times$ U(1)$_R$ model}
 	{\href{http://wnppc.triumf.ca/2018/}{WNPPC 2018}}
 	
-	\entry
+	\entrySuperLong
 	{2015}
-	{First Joint METU-IPM Conference on LHC Physics  \normalfont (Poster presentation) \\ (2015, September 29--October 3) \\
-		Title: Higgs Anomalies in SUSY B-L Model}
+	{First Joint METU-IPM Conference on LHC Physics  \normalfont (Poster) (September 29--October 3)}
+	{Title: Higgs Anomalies in SUSY B-L Model}
 	{\href{http://ictp-ecar.org/events/first-joint-metu-ipm-conference-on-lhc-physics/}{ICTP-ECAR}}
 	
-	\entry
+	\entrySuperLong
 	{2014}
-	{Turkish Physical Society 31th International Physics Congress \\ \normalfont (Poster presentation - 2014, July 21-24) \\
-		Title: Revisiting N-symmetric barrier tunneling in Quantum Mechanics}
+	{Turkish Physical Society 31th International Physics Congress \normalfont (Poster) (July 21-24)}
+	{Title: Revisiting N-symmetric barrier tunneling in Quantum Mechanics}
 	{\href{http://www.tfd.com.tr/arsiv/TFD/31/en/default.htm}{TFD-31}}
 	
-	\entry
+	\entrySuperLong
 	{2014}
-	{Izmir Solid State Physics Meeting  \normalfont (Poster presentation) \\ (2014, April 11) \\
-		Title: Revisiting N-symmetric barrier tunneling in Quantum Mechanics}
+	{Izmir Solid State Physics Meeting  \normalfont (Poster) (2014, April 11)}
+	{Title: Revisiting N-symmetric barrier tunneling in Quantum Mechanics}
 	{\href{http://ymf.iyte.edu.tr/?page_id=234}{IZTECH}}
 	
 	
@@ -307,48 +324,42 @@ Electroweak Symmetry Breaking \\
 
 \begin{entrylist}
 	
-		\entry
+	\entrySuperLong
 {1)}
-{Correlating $W^\prime$ and $Z^\prime$ gauge boson mass limits in general \\ extensions of the Standard Model \\ \normalfont
-	Collaboration with Prof. Benjamin Fuks, Prof. Stefano Moretti and Prof. Mariana Frank}
+{Correlating $W^\prime$ and $Z^\prime$ mass limits in general extensions of the Standard Model}
+{Collaboration with Prof. Benjamin Fuks, Prof. Stefano Moretti, Prof. Mariana Frank and Prof. Gennaro Corcella}
 {\href{https://www.mitacs.ca/en/programs/globalink/globalink-research-award}{}} 
 	
 \end{entrylist}	
 
 
 
-\newpage
 
 \section{Awards}
 
 \begin{entrylist}
 	
-\entry
+\entryp
 {2019}
 {Mitacs Globalink Research Award}
 {\href{https://www.mitacs.ca/en/programs/globalink/globalink-research-award}{Mitacs}} 	
 	
-	
-%\entry
-%{2019}
-%{Graduate Student Mobility Award}
-%{\href{https://www.concordia.ca/students/exchanges/funding/graduate-mobility-award.html}{Concordia University}} 	
 
-
-\entry
+\entryp
 {2016}
 {Concordia International Tuition Award of Excellence}
 {\href{http://www.concordia.ca}{Concordia University}} 	
 
 
-\entry
+\entryp
 {2014}
 {B.Sc. in Physics 3rd Ranked Award}
 {\href{http://www.iyte.edu.tr/AnaSayfa.aspx?d=ENG}{Izmir Institute of Technology}} 	
 	
 	
 \end{entrylist}	
-	
+
+\newpage	
 
 \section{References}
 	
@@ -417,5 +428,10 @@ Electroweak Symmetry Breaking \\
 
 
 	\end{entrylist}
+
+
+
+
+
 
 \end{document}
