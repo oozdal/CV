@@ -1,0 +1,158 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+
+
+\usepackage{lipsum}
+
+\addbibresource{bibliography.bib}
+
+\usepackage{geometry}
+
+\makeatletter
+\let\@@outputpage\@outputpage
+\def\@outputpage{\expandafter\@thisgeometry\@@outputpage}
+\def\oddgeometryeven#1#2{%
+	\gdef\@thisgeometry{%
+		\ifnum\value{page}=1
+		\newgeometry{left=6.1cm,top=1.2cm,right=1.5cm,bottom=0.1cm,nohead,nofoot}%
+		\else
+        \newgeometry{left=3.1cm,top=1.5cm,right=1.5cm,bottom=0.1cm,nohead,nofoot}%
+		\fi}
+}
+\makeatother
+
+\oddgeometryeven{left=6.1cm,top=2cm,right=1.5cm,bottom=2.5cm,nohead,nofoot}{left=3.1cm,top=1cm,right=0.1cm,bottom=0.1cm,nohead,nofoot}
+
+
+
+\begin{document}
+\header {Özer Özdal}
+    %   {Ph.D.}
+
+
+% In the aside, each new line forces a line break
+\begin{aside}
+	\section{Contact Information}
+	Tel: +1 438 935 74 64
+	\href{mailto:ozerozdal@gmail.com}{ozerozdal@gmail.com}
+	\href{http://www.linkedin.com/in/ozerozdal/}{linkedin://ozerozdal}
+	%  \href{http://facebook.com/ozerozdal}{fb://ozerozdal}
+	\href{http://github.com/oozdal}{github://oozdal}
+	\section{Personal Information}
+	\bullet Date of birth 
+	28/05/1990
+	\bullet Place of birth
+	Izmir, Turkey
+	\section{Languages}
+	Native Turkish
+	Advanced English 
+	French (A2 Level)
+	\section{Software Skills}
+	Monte Carlo Sampling
+	Statistical Modeling
+	Linear regression
+	Clustering     
+	Quantitative Analysis    
+	Data Visualization
+	\section{Coursework}  
+	\bullet Machine Learning
+	\bullet Deep Learning Specialization
+	\bullet SQL for Data Science
+	\bullet Linear Algebra
+	\bullet Multivariate Calculus
+	\bullet Probability Theory
+	\bullet Computational Physics    
+	\bullet Classical Mechanics
+	\bullet Quantum Mechanics
+	\bullet Statistical Mechanics
+	\section{Tools}
+	$\textsc{Python}$, $\textsc{C++}$ 
+	$\textsc{SQL}$, $\textsc{Fortran}$
+	$\textsc{CERN ROOT}$, LaTeX   
+	Bash shell scripting
+	$\textsc{Mathematica}$,  $\textsc{Matlab}$
+	\section{Packages}  
+	Scikit-Learn,
+	NumPy, SciPy,
+	Pandas, Matplotlib,
+	Pytorch, TensorFlow    
+\end{aside}
+
+
+
+
+
+\section{References}
+	
+	\begin{entrylist}
+		
+		\entry
+		{1)}
+		{Prof. Mariana Frank \\ \normalfont
+		Professor in Physics \\
+		Office: 	L-SP 367-19 \\
+		Richard J. Renaud Science Complex, 7141 Sherbrooke W. 	\\
+		Office Phone: 	(514) 848-2424 ext. 3283 \\
+		Concordia University}
+		{\href{mariana.frank@concordia.ca}{mariana.frank@concordia.ca}} 
+		
+
+			
+		\entry
+		{2)}
+		{Prof. Benjamin Fuks \\ \normalfont
+		Professor in Physics \\	
+		Laboratoire de Physique Théorique et Hautes Énergies (LPTHE) \\	
+		Office : 	13-14.521 \\
+		Office Phone: 	01 44 27 63 38	\\
+		Sorbonne Université}
+		{\href{fuks@lpthe.jussieu.fr}{fuks@lpthe.jussieu.fr}} 		
+	
+	    \entry
+		{3)}
+		{Prof. Stefano Moretti  \\ \normalfont
+		Professor in Physics \\	
+		School of Physics and Astronomy \\
+		University of Southampton \\
+		Highfield, Southampton SO17 1BJ, UK	\\
+		Office Phone: 	+44 (0)23 8059 6829 \\
+		University of Southampton}
+		{\href{S.Moretti@soton.ac.uk}{S.Moretti@soton.ac.uk}} 			
+	
+		\entry
+		{4)}
+		{Prof. Poulose Poulose \\ \normalfont
+		Associate Professor in Physics \\		
+		Department of Physics \\
+		IIT Guwahati, Assam 781039 \\
+		Office Phone: +91 (0)361 2582713 \\			
+		Indian Institute of Technology Guwahati}
+		{\href{poulose@iitg.ac.in}{poulose@iitg.ac.in}} 					
+
+	
+	    \entry
+		{5)}
+		{Assoc. Prof. Cem Salih Ün  \\ \normalfont
+		Associate Professor in Physics \\		
+		Department of Physics \\			
+		Uludağ University}
+		{\href{cemsalihun@uludag.edu.tr}{cemsalihun@uludag.edu.tr}} 		
+
+	    \entry
+		{6)}
+		{Prof. Durmuş Ali Demir  \\ \normalfont
+		Professor in Physics \\		
+		Department of Physics \\
+	    Office Phone: +90 216 568 7042 \\						
+		Sabancı University}
+		{\href{durmus.demir@sabanciuniv.edu}{durmus.demir@sabanciuniv.edu}} 		
+
+
+	\end{entrylist}
+
+
+
+
+
+
+\end{document}
